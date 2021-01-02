@@ -14,5 +14,7 @@ class OnboardingItemsAdapter {
         private val textTitle = view.findViewById<TextView>(R.id.textTitle)
         private val textDescription = view.findViewById<TextView>(R.id.textDescription)
 
+              fun bind(onboardingItem: OnboardingItem){
+        }
     }
 }
